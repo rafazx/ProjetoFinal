@@ -1,0 +1,364 @@
+html, body, div, span, applet, object, iframe,
+p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+li {
+	color:#fff;
+	height:25px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+ul li {
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+li a {
+	color:#fff;
+	padding:20px;
+}
+
+#topo{
+	height:45px;
+	padding:5px;
+	background-color:#4d68a1;	
+	border-bottom: 1px solid #1e3a70;
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+
+.ativo {
+	background-color: #1e3a70;
+}
+
+.menu{
+	background-color: #2b519d;
+	width:225px;	
+	border: 2px solid #1e3a70;
+	height:1000px;
+	position:fixed;
+	top:55px;
+}
+
+.menu li{
+	padding-bottom:15px;
+	cursor: pointer;
+}
+
+.menu li:hover{
+	background-color: #1e3a70;
+}
+
+.fora:hover {
+	cursor: Default;
+	background-color: #2b519d;
+}
+
+#logo img{
+	width: 45px;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+#nomeSistema {
+	color: #fff;
+	position: relative;
+	top: -15px;
+	font-size: 18px;
+}
+
+#nomeUsuario{
+	margin-top:-65px;
+	margin-right:-15px;
+	float:right;
+}
+
+.botao-topo a:hover{
+	background-color: #1e3a70;
+	height:15.5px;
+}
+
+#centro{
+	margin-top:90px;	
+	margin-left:170px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding:5px;
+}
+
+table{
+	width:1000px;
+}
+
+#btn-cadalt{
+	margin-left: 28px;
+}
+
+#btn-buscar{
+	margin-left: 58px;
+}
+
+#tabela-result{
+	border: 1px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+#tabela-result td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.tabela-result-header{
+	background-color: #2b519d;
+	color: white;
+}
+
+#btn-ativar, #btn-desativar{
+	margin-left: 20px;
+	padding: 3px;
+}
+
+.box{
+	margin-top: 50px;
+	height: 30px;
+	float: left;
+}
+
+.panel {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-color: #337ab7;
+	background-color: #fff;
+	height: 461.141px;
+}
+
+.panel-body{
+	padding: 15px;
+}
+
+.panel-heading{
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+
+.panel-title{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: inherit;
+}
+@media screen and (max-width: 800px) {
+
+	.centralizar {
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	
+		.centralizar {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	
+}
+
+@media screen and (min-width: 1201px) {
+	
+		.centralizar {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	
+}
+
+.direitar {
+	float: right;
+}
+
+.esquerdar {
+	float: left;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;	
+}
+
+.customH4 {
+	margin-bottom: 0px;
+	margin-right: 62px;
+}
+
+.customH1 {
+	margin-top: 0px;
+}
+
+.textoCentro {
+	text-align: center;
+}
+
+body {
+
+	margin-top: 50px;
+}
+
+.divider {
+	border-left: 1px solid #38546d;
+	border-right: 1px solid #16222c;
+	height: 35%;
+	position: absolute;
+	right: 50%;
+	top: 45%;
+}
+
+.treta1 {
+	width: 200px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: auto;
+}
+
+.treta2 {
+	text-align: center;
+	width: 200px;
+	float: right;
+	margin-top: -253px;
+	margin-right: 10%;
+	margin-left: auto;
+}
+
+/*Aqui começa o menu lateral*/
+#sidemenu {
+    background-color: #2b519d;
+		
+
+	height:1000px;
+	position:fixed;
+	top:55px;
+}
+
+.sidemenu ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	width: 150px;
+
+	list-style-type:none;
+	background-color: #2b519d;
+	}	
+	
+	
+.sidemenu ul li {
+	position: relative;
+	list-style-type:none;
+	
+	color: #fff;
+	border: 0;
+	background-color: #2b519d;
+	}
+	
+.sidemenu li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+	background-color: #2b519d;
+	color: #fff;
+	border: 0;
+	}
+
+.sidemenu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2b519d;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	border: 0;
+	}
+
+.sidemenu li:hover ul { 
+		display: block;
+}
+
+.menu-ativo a:hover {
+	background-color: #1e3a70;
+}
+/* Aqui termina o menu lateral*/
+
+
+
+.coluna-direita{
+ float:right;
+	
+}
+.coluna-esquerda{
+	float:left;
+	
+}
+.tabela{
+	display:table;
+	width:500px;
+}
+
+
